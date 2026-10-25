@@ -1,0 +1,538 @@
+{
+	"_readme": "Weekly mission calendar, weeks 1-52. class = jump|gem|powerup|babushka|run|air|shield|magnet|slowmo|invincible|airdouble|flag|scoremult|score|biome|mother|any. Progress is cumulative across runs until the week changes. rewardGems is capped at 500 by the game. Week 1 starts Monday 2026-01-05 (UTC) and the 52 weeks repeat. defaults = starting gems/items for a brand-new install (clamped 0-1000). unit = text after the progress count.",
+	"version": 3,
+	"lastUpdated": "2026-10-26",
+	"anchorDays": 20458,
+	"weeks": {
+		"1": {
+			"id": "m_jump_10_1",
+			"class": "jump",
+			"title": "Orbital Leaper",
+			"description": "Jump to 10 new asteroids.",
+			"target": 10,
+			"rewardGems": 50,
+			"frame": 0,
+			"unit": "planets visited"
+		},
+		"2": {
+			"id": "m_gem_50_2",
+			"class": "gem",
+			"title": "Gem Collector",
+			"description": "Collect 50 gems across your runs.",
+			"target": 50,
+			"rewardGems": 75,
+			"frame": 12,
+			"unit": "gems collected"
+		},
+		"3": {
+			"id": "m_powerup_3_3",
+			"class": "powerup",
+			"title": "Gadget Greenhorn",
+			"description": "Use 3 power-ups.",
+			"target": 3,
+			"rewardGems": 75,
+			"frame": 11,
+			"unit": "power-ups used"
+		},
+		"4": {
+			"id": "m_babushka_5_4",
+			"class": "babushka",
+			"title": "Nesting Instinct",
+			"description": "Find 5 space babushkas.",
+			"target": 5,
+			"rewardGems": 100,
+			"frame": 10,
+			"unit": "babushkas found"
+		},
+		"5": {
+			"id": "m_run_5_5",
+			"class": "run",
+			"title": "Frequent Flyer",
+			"description": "Finish 5 runs.",
+			"target": 5,
+			"rewardGems": 60,
+			"frame": 9,
+			"unit": "runs finished"
+		},
+		"6": {
+			"id": "m_jump_25_6",
+			"class": "jump",
+			"title": "Rock Hopper",
+			"description": "Jump to 25 new asteroids.",
+			"target": 25,
+			"rewardGems": 100,
+			"frame": 0,
+			"unit": "planets visited"
+		},
+		"7": {
+			"id": "m_air_15_7",
+			"class": "air",
+			"title": "Deep Breath",
+			"description": "Grab 15 air bubbles.",
+			"target": 15,
+			"rewardGems": 75,
+			"frame": 15,
+			"unit": "air bubbles"
+		},
+		"8": {
+			"id": "m_shield_3_8",
+			"class": "shield",
+			"title": "Bubble Boy",
+			"description": "Use the Bubble Shield 3 times.",
+			"target": 3,
+			"rewardGems": 100,
+			"frame": 6,
+			"unit": "shields used"
+		},
+		"9": {
+			"id": "m_gem_100_9",
+			"class": "gem",
+			"title": "Gem Hoarder",
+			"description": "Collect 100 gems.",
+			"target": 100,
+			"rewardGems": 125,
+			"frame": 12,
+			"unit": "gems collected"
+		},
+		"10": {
+			"id": "m_score_500_10",
+			"class": "score",
+			"title": "Point Hunter",
+			"description": "Score 500 points in total.",
+			"target": 500,
+			"rewardGems": 100,
+			"frame": 2,
+			"unit": "points scored"
+		},
+		"11": {
+			"id": "m_magnet_3_11",
+			"class": "magnet",
+			"title": "Gem Magnet",
+			"description": "Use the Gem Magnet 3 times.",
+			"target": 3,
+			"rewardGems": 100,
+			"frame": 3,
+			"unit": "magnets used"
+		},
+		"12": {
+			"id": "m_biome_3_12",
+			"class": "biome",
+			"title": "Ice Breaker",
+			"description": "Reach a new biome 3 times.",
+			"target": 3,
+			"rewardGems": 150,
+			"frame": 7,
+			"unit": "new biomes reached"
+		},
+		"13": {
+			"id": "m_slowmo_3_13",
+			"class": "slowmo",
+			"title": "Time Bender",
+			"description": "Use Slow Motion 3 times.",
+			"target": 3,
+			"rewardGems": 100,
+			"frame": 8,
+			"unit": "slow-mos used"
+		},
+		"14": {
+			"id": "m_jump_50_14",
+			"class": "jump",
+			"title": "Star Skipper",
+			"description": "Jump to 50 new asteroids.",
+			"target": 50,
+			"rewardGems": 150,
+			"frame": 0,
+			"unit": "planets visited"
+		},
+		"15": {
+			"id": "m_babushka_10_15",
+			"class": "babushka",
+			"title": "Doll Collector",
+			"description": "Find 10 space babushkas.",
+			"target": 10,
+			"rewardGems": 150,
+			"frame": 10,
+			"unit": "babushkas found"
+		},
+		"16": {
+			"id": "m_run_10_16",
+			"class": "run",
+			"title": "Regular Orbit",
+			"description": "Finish 10 runs.",
+			"target": 10,
+			"rewardGems": 100,
+			"frame": 9,
+			"unit": "runs finished"
+		},
+		"17": {
+			"id": "m_mother_1_17",
+			"class": "mother",
+			"title": "Mother Tamer",
+			"description": "Clear a mother planet.",
+			"target": 1,
+			"rewardGems": 200,
+			"frame": 0,
+			"unit": "mother planets cleared"
+		},
+		"18": {
+			"id": "m_gem_150_18",
+			"class": "gem",
+			"title": "Gem Rush",
+			"description": "Collect 150 gems.",
+			"target": 150,
+			"rewardGems": 150,
+			"frame": 12,
+			"unit": "gems collected"
+		},
+		"19": {
+			"id": "m_invincible_2_19",
+			"class": "invincible",
+			"title": "Untouchable",
+			"description": "Use Invincibility 2 times.",
+			"target": 2,
+			"rewardGems": 125,
+			"frame": 11,
+			"unit": "invincibles used"
+		},
+		"20": {
+			"id": "m_score_1500_20",
+			"class": "score",
+			"title": "High Flyer",
+			"description": "Score 1,500 points in total.",
+			"target": 1500,
+			"rewardGems": 150,
+			"frame": 2,
+			"unit": "points scored"
+		},
+		"21": {
+			"id": "m_air_30_21",
+			"class": "air",
+			"title": "Lungful",
+			"description": "Grab 30 air bubbles.",
+			"target": 30,
+			"rewardGems": 100,
+			"frame": 15,
+			"unit": "air bubbles"
+		},
+		"22": {
+			"id": "m_powerup_8_22",
+			"class": "powerup",
+			"title": "Gadget Guru",
+			"description": "Use 8 power-ups.",
+			"target": 8,
+			"rewardGems": 125,
+			"frame": 11,
+			"unit": "power-ups used"
+		},
+		"23": {
+			"id": "m_jump_75_23",
+			"class": "jump",
+			"title": "Cosmic Commuter",
+			"description": "Jump to 75 new asteroids.",
+			"target": 75,
+			"rewardGems": 175,
+			"frame": 0,
+			"unit": "planets visited"
+		},
+		"24": {
+			"id": "m_flag_2_24",
+			"class": "flag",
+			"title": "Flag Planter",
+			"description": "Plant the Muttnik Flag 2 times.",
+			"target": 2,
+			"rewardGems": 150,
+			"frame": 1,
+			"unit": "flags planted"
+		},
+		"25": {
+			"id": "m_biome_6_25",
+			"class": "biome",
+			"title": "Biome Explorer",
+			"description": "Reach a new biome 6 times.",
+			"target": 6,
+			"rewardGems": 200,
+			"frame": 7,
+			"unit": "new biomes reached"
+		},
+		"26": {
+			"id": "m_babushka_15_26",
+			"class": "babushka",
+			"title": "Matryoshka Hunter",
+			"description": "Find 15 space babushkas.",
+			"target": 15,
+			"rewardGems": 175,
+			"frame": 10,
+			"unit": "babushkas found"
+		},
+		"27": {
+			"id": "m_airdouble_2_27",
+			"class": "airdouble",
+			"title": "Double Lungs",
+			"description": "Use Double O2 2 times.",
+			"target": 2,
+			"rewardGems": 125,
+			"frame": 15,
+			"unit": "double-airs used"
+		},
+		"28": {
+			"id": "m_run_15_28",
+			"class": "run",
+			"title": "Space Regular",
+			"description": "Finish 15 runs.",
+			"target": 15,
+			"rewardGems": 125,
+			"frame": 9,
+			"unit": "runs finished"
+		},
+		"29": {
+			"id": "m_gem_200_29",
+			"class": "gem",
+			"title": "Gem Magnate",
+			"description": "Collect 200 gems.",
+			"target": 200,
+			"rewardGems": 200,
+			"frame": 12,
+			"unit": "gems collected"
+		},
+		"30": {
+			"id": "m_scoremult_3_30",
+			"class": "scoremult",
+			"title": "Double Trouble",
+			"description": "Use the 2x Multiplier 3 times.",
+			"target": 3,
+			"rewardGems": 125,
+			"frame": 4,
+			"unit": "2x scores used"
+		},
+		"31": {
+			"id": "m_mother_2_31",
+			"class": "mother",
+			"title": "Mother Wrangler",
+			"description": "Clear 2 mother planets.",
+			"target": 2,
+			"rewardGems": 250,
+			"frame": 0,
+			"unit": "mother planets cleared"
+		},
+		"32": {
+			"id": "m_jump_100_32",
+			"class": "jump",
+			"title": "Century Jumper",
+			"description": "Jump to 100 new asteroids.",
+			"target": 100,
+			"rewardGems": 250,
+			"frame": 0,
+			"unit": "planets visited"
+		},
+		"33": {
+			"id": "m_score_3000_33",
+			"class": "score",
+			"title": "Score Chaser",
+			"description": "Score 3,000 points in total.",
+			"target": 3000,
+			"rewardGems": 200,
+			"frame": 2,
+			"unit": "points scored"
+		},
+		"34": {
+			"id": "m_shield_6_34",
+			"class": "shield",
+			"title": "Shield Specialist",
+			"description": "Use the Bubble Shield 6 times.",
+			"target": 6,
+			"rewardGems": 175,
+			"frame": 6,
+			"unit": "shields used"
+		},
+		"35": {
+			"id": "m_air_50_35",
+			"class": "air",
+			"title": "Breathing Room",
+			"description": "Grab 50 air bubbles.",
+			"target": 50,
+			"rewardGems": 150,
+			"frame": 15,
+			"unit": "air bubbles"
+		},
+		"36": {
+			"id": "m_babushka_20_36",
+			"class": "babushka",
+			"title": "Nesting Master",
+			"description": "Find 20 space babushkas.",
+			"target": 20,
+			"rewardGems": 200,
+			"frame": 10,
+			"unit": "babushkas found"
+		},
+		"37": {
+			"id": "m_powerup_15_37",
+			"class": "powerup",
+			"title": "Gadget Master",
+			"description": "Use 15 power-ups.",
+			"target": 15,
+			"rewardGems": 200,
+			"frame": 11,
+			"unit": "power-ups used"
+		},
+		"38": {
+			"id": "m_biome_10_38",
+			"class": "biome",
+			"title": "Biome Hopper",
+			"description": "Reach a new biome 10 times.",
+			"target": 10,
+			"rewardGems": 250,
+			"frame": 7,
+			"unit": "new biomes reached"
+		},
+		"39": {
+			"id": "m_magnet_6_39",
+			"class": "magnet",
+			"title": "Gem Whisperer",
+			"description": "Use the Gem Magnet 6 times.",
+			"target": 6,
+			"rewardGems": 175,
+			"frame": 3,
+			"unit": "magnets used"
+		},
+		"40": {
+			"id": "m_run_20_40",
+			"class": "run",
+			"title": "Veteran Flyer",
+			"description": "Finish 20 runs.",
+			"target": 20,
+			"rewardGems": 150,
+			"frame": 9,
+			"unit": "runs finished"
+		},
+		"41": {
+			"id": "m_gem_300_41",
+			"class": "gem",
+			"title": "Gem Baron",
+			"description": "Collect 300 gems.",
+			"target": 300,
+			"rewardGems": 300,
+			"frame": 12,
+			"unit": "gems collected"
+		},
+		"42": {
+			"id": "m_slowmo_6_42",
+			"class": "slowmo",
+			"title": "Master of Time",
+			"description": "Use Slow Motion 6 times.",
+			"target": 6,
+			"rewardGems": 175,
+			"frame": 8,
+			"unit": "slow-mos used"
+		},
+		"43": {
+			"id": "m_mother_3_43",
+			"class": "mother",
+			"title": "Mother Slayer",
+			"description": "Clear 3 mother planets.",
+			"target": 3,
+			"rewardGems": 300,
+			"frame": 0,
+			"unit": "mother planets cleared"
+		},
+		"44": {
+			"id": "m_jump_150_44",
+			"class": "jump",
+			"title": "Galaxy Hopper",
+			"description": "Jump to 150 new asteroids.",
+			"target": 150,
+			"rewardGems": 300,
+			"frame": 0,
+			"unit": "planets visited"
+		},
+		"45": {
+			"id": "m_score_5000_45",
+			"class": "score",
+			"title": "Score Legend",
+			"description": "Score 5,000 points in total.",
+			"target": 5000,
+			"rewardGems": 300,
+			"frame": 2,
+			"unit": "points scored"
+		},
+		"46": {
+			"id": "m_invincible_4_46",
+			"class": "invincible",
+			"title": "Ghost Dog",
+			"description": "Use Invincibility 4 times.",
+			"target": 4,
+			"rewardGems": 200,
+			"frame": 11,
+			"unit": "invincibles used"
+		},
+		"47": {
+			"id": "m_babushka_30_47",
+			"class": "babushka",
+			"title": "Doll Dynasty",
+			"description": "Find 30 space babushkas.",
+			"target": 30,
+			"rewardGems": 300,
+			"frame": 10,
+			"unit": "babushkas found"
+		},
+		"48": {
+			"id": "m_flag_5_48",
+			"class": "flag",
+			"title": "Flag Bearer",
+			"description": "Plant the Muttnik Flag 5 times.",
+			"target": 5,
+			"rewardGems": 250,
+			"frame": 1,
+			"unit": "flags planted"
+		},
+		"49": {
+			"id": "m_air_80_49",
+			"class": "air",
+			"title": "Fresh Air Fiend",
+			"description": "Grab 80 air bubbles.",
+			"target": 80,
+			"rewardGems": 250,
+			"frame": 15,
+			"unit": "air bubbles"
+		},
+		"50": {
+			"id": "m_gem_500_50",
+			"class": "gem",
+			"title": "Gem Tycoon",
+			"description": "Collect 500 gems.",
+			"target": 500,
+			"rewardGems": 400,
+			"frame": 12,
+			"unit": "gems collected"
+		},
+		"51": {
+			"id": "m_mother_5_51",
+			"class": "mother",
+			"title": "Mother Master",
+			"description": "Clear 5 mother planets.",
+			"target": 5,
+			"rewardGems": 400,
+			"frame": 0,
+			"unit": "mother planets cleared"
+		},
+		"52": {
+			"id": "m_jump_250_52",
+			"class": "jump",
+			"title": "Grand Tour",
+			"description": "Jump to 250 new asteroids.",
+			"target": 250,
+			"rewardGems": 500,
+			"frame": 0,
+			"unit": "planets visited"
+		}
+	},
+	"defaults": {
+		"gems": 100,
+		"shield": 10,
+		"magnet": 10,
+		"slowmo": 10,
+		"score": 10,
+		"invincible": 10,
+		"airdouble": 10,
+		"flag": 10
+	}
+}
