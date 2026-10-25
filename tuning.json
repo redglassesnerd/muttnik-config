@@ -1,6 +1,6 @@
 {
-	"_readme": "Live tuning. Any value that is missing or <= 0 keeps the value the game shipped with. Fetched at the start of a run / summary.",
-	"version": 1,
+	"_readme": "Live tuning. Any value that is missing or <= 0 keeps the value the game shipped with (so shakeScale cannot be set to 0 here - use feel.reduceMotion = 1 to switch shake and hit-stop off). Fetched at the start of a run / summary.",
+	"version": 2,
 	"upgrades": {
 		"thrusterSpeedMult": 1.15,
 		"o2TankAir": 125,
@@ -19,5 +19,15 @@
 	},
 	"babushka": {
 		"bonusGems": 25
+	},
+	"feel": {
+		"shakeScale": 0.6,
+		"shakeMaxPx": 12,
+		"shakeDecay": 2.0,
+		"hitStopSecs": 0.05,
+		"hitTrauma": 0.3,
+		"landTrauma": 0.1,
+		"deathTrauma": 0.35,
+		"reduceMotion": 0
 	}
 }
