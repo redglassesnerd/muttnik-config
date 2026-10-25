@@ -1,0 +1,23 @@
+{
+	"_readme": "Live tuning. Any value that is missing or <= 0 keeps the value the game shipped with. Fetched at the start of a run / summary.",
+	"version": 1,
+	"upgrades": {
+		"thrusterSpeedMult": 1.15,
+		"o2TankAir": 125,
+		"hullAirFraction": 0.5,
+		"radarZoom": 0.9,
+		"magnetRadius": 170
+	},
+	"powerups": {
+		"invincibleSecs": 30,
+		"magnetSecs": 30,
+		"slowmoSecs": 15,
+		"scoreMultSecs": 30
+	},
+	"run": {
+		"lowAirFraction": 0.25
+	},
+	"babushka": {
+		"bonusGems": 25
+	}
+}

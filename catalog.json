@@ -1,0 +1,356 @@
+{
+  "version": 3,
+  "lastUpdated": "2026-10-14",
+  "shelves": [
+    {
+      "shelfIndex": 1,
+      "category": "upgrades",
+      "name": "UPGRADES",
+      "baseY": 108,
+      "items": [
+        {
+          "id": "slot_2",
+          "name": "Equipment Slot 2",
+          "description": "Equip a second power-up before each run.",
+          "price": 300,
+          "iconIndex": 11,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "slot_3",
+          "name": "Equipment Slot 3",
+          "description": "Equip a third power-up before each run. Needs Slot 2.",
+          "price": 600,
+          "iconIndex": 11,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "upgrade_thruster",
+          "name": "Ion Thruster",
+          "description": "+15% run speed on every planet.",
+          "price": 120,
+          "iconIndex": 5,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "upgrade_o2tank",
+          "name": "O2 Expander",
+          "description": "+25% air: a bigger oxygen tank every run.",
+          "price": 150,
+          "iconIndex": 15,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "upgrade_magnet",
+          "name": "Gem Radar",
+          "description": "Pulls gems within range of Muttnik towards him.",
+          "price": 100,
+          "iconIndex": 12,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "upgrade_shield",
+          "name": "Hull Plating",
+          "description": "Survive one lethal hit per run (back on your feet at 50% air).",
+          "price": 180,
+          "iconIndex": 6,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "upgrade_radar",
+          "name": "Deep Scanner",
+          "description": "See 10% more of the map around Muttnik.",
+          "price": 140,
+          "iconIndex": 9,
+          "width": 150,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "shelfIndex": 2,
+      "category": "powerups",
+      "name": "POWER-UPS",
+      "baseY": 220,
+      "items": [
+        {
+          "id": "powerup_shield",
+          "name": "Bubble Shield",
+          "description": "Protects Muttnik from a single hazard impact.",
+          "price": 50,
+          "iconIndex": 6,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "powerup_magnet",
+          "name": "Gem Magnet",
+          "description": "Draws nearby floating gems towards your orbit.",
+          "price": 75,
+          "iconIndex": 3,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "powerup_score",
+          "name": "2x Multiplier",
+          "description": "Doubles score points gained during your run.",
+          "price": 75,
+          "iconIndex": 2,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "powerup_slowmo",
+          "name": "Slow Motion",
+          "description": "Temporarily slows time for precise asteroid transitions.",
+          "price": 60,
+          "iconIndex": 8,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "powerup_invincible",
+          "name": "Invincibility",
+          "description": "Phase through all hazards and space debris.",
+          "price": 100,
+          "iconIndex": 11,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "powerup_airdouble_01",
+          "name": "Double O2",
+          "description": "Extends orbit flight time with double air reserve.",
+          "price": 80,
+          "iconIndex": 15,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "powerup_flag",
+          "name": "Muttnik Flag",
+          "description": "Beacon the next planet with your Muttnik flag.",
+          "price": 50,
+          "iconIndex": 1,
+          "width": 150,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "shelfIndex": 3,
+      "category": "customisations",
+      "name": "CUSTOMISATIONS",
+      "baseY": 332,
+      "items": [
+        {
+          "id": "cosmetic_visor_ruby",
+          "name": "Ruby Visor",
+          "description": "Polished ruby glass helmet with anti-glare tint.",
+          "price": 200,
+          "iconIndex": 7,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "cosmetic_collar_neon",
+          "name": "Neon Collar",
+          "description": "Luminous safety collar glowing in deep space.",
+          "price": 150,
+          "iconIndex": 5,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "cosmetic_suit_cyber",
+          "name": "Cyber Suit",
+          "description": "High-tech chromatic space fabric for Muttnik.",
+          "price": 250,
+          "iconIndex": 13,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "cosmetic_trail_stardust",
+          "name": "Stardust Trail",
+          "description": "Leaves a glittering stardust particle trail.",
+          "price": 180,
+          "iconIndex": 4,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "cosmetic_flag_golden",
+          "name": "Gold Pennant",
+          "description": "Exclusive metallic gold flag for conquering biomes.",
+          "price": 300,
+          "iconIndex": 1,
+          "width": 150,
+          "height": 48
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "upgrade_thruster",
+      "name": "Ion Thruster",
+      "description": "Boosts Muttnik flight speed and maneuverability.",
+      "price": 120,
+      "iconIndex": 10,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "id": "upgrade_o2tank",
+      "name": "O2 Expander",
+      "description": "Increases maximum oxygen tank capacity by 25%.",
+      "price": 150,
+      "iconIndex": 15,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "id": "upgrade_magnet",
+      "name": "Gem Radar",
+      "description": "Expands magnetic attraction radius for floating gems.",
+      "price": 100,
+      "iconIndex": 3,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "id": "upgrade_shield",
+      "name": "Hull Plating",
+      "description": "Reinforces hull against debris and high-speed impacts.",
+      "price": 180,
+      "iconIndex": 0,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "id": "upgrade_radar",
+      "name": "Deep Scanner",
+      "description": "Reveals hidden gems and orbital hazards in advance.",
+      "price": 140,
+      "iconIndex": 14,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "id": "powerup_shield",
+      "name": "Bubble Shield",
+      "description": "Protects Muttnik from a single hazard impact.",
+      "price": 50,
+      "iconIndex": 6,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "id": "powerup_magnet",
+      "name": "Gem Magnet",
+      "description": "Draws nearby floating gems towards your orbit.",
+      "price": 75,
+      "iconIndex": 3,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "id": "powerup_score",
+      "name": "2x Multiplier",
+      "description": "Doubles score points gained during your run.",
+      "price": 75,
+      "iconIndex": 2,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "id": "powerup_slowmo",
+      "name": "Slow Motion",
+      "description": "Temporarily slows time for precise asteroid transitions.",
+      "price": 60,
+      "iconIndex": 8,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "id": "powerup_invincible",
+      "name": "Invincibility",
+      "description": "Phase through all hazards and space debris.",
+      "price": 100,
+      "iconIndex": 11,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "id": "powerup_airdouble_01",
+      "name": "Double O2",
+      "description": "Extends orbit flight time with double air reserve.",
+      "price": 80,
+      "iconIndex": 15,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "id": "powerup_flag",
+      "name": "Muttnik Flag",
+      "description": "Beacon the next planet with your Muttnik flag.",
+      "price": 50,
+      "iconIndex": 1,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "id": "cosmetic_visor_ruby",
+      "name": "Ruby Visor",
+      "description": "Polished ruby glass helmet with anti-glare tint.",
+      "price": 200,
+      "iconIndex": 7,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "id": "cosmetic_collar_neon",
+      "name": "Neon Collar",
+      "description": "Luminous safety collar glowing in deep space.",
+      "price": 150,
+      "iconIndex": 5,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "id": "cosmetic_suit_cyber",
+      "name": "Cyber Suit",
+      "description": "High-tech chromatic space fabric for Muttnik.",
+      "price": 250,
+      "iconIndex": 13,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "id": "cosmetic_trail_stardust",
+      "name": "Stardust Trail",
+      "description": "Leaves a glittering stardust particle trail.",
+      "price": 180,
+      "iconIndex": 4,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "id": "cosmetic_flag_golden",
+      "name": "Gold Pennant",
+      "description": "Exclusive metallic gold flag for conquering biomes.",
+      "price": 300,
+      "iconIndex": 1,
+      "width": 0,
+      "height": 0
+    }
+  ]
+}
