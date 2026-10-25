@@ -27,6 +27,24 @@
           "height": 48
         },
         {
+          "id": "slot_4",
+          "name": "Equipment Slot 4",
+          "description": "Equip a fourth power-up before each run. Needs Slot 3.",
+          "price": 2500,
+          "iconIndex": 11,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "slot_5",
+          "name": "Equipment Slot 5",
+          "description": "Equip a fifth power-up before each run. Needs Slot 4.",
+          "price": 9999,
+          "iconIndex": 11,
+          "width": 150,
+          "height": 48
+        },
+        {
           "id": "upgrade_thruster",
           "name": "Ion Thruster",
           "description": "+15% run speed on every planet.",
