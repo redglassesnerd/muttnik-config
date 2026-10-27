@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "lastUpdated": "2026-10-14",
+  "version": 4,
+  "lastUpdated": "2026-10-28",
   "shelves": [
     {
       "shelfIndex": 1,
@@ -210,6 +210,15 @@
           "description": "Exclusive metallic gold flag for conquering biomes.",
           "price": 300,
           "iconIndex": 1,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "cosmetic_bow_red",
+          "name": "Red Bow",
+          "description": "A jaunty red bow for Muttnik's helmet.",
+          "price": 120,
+          "iconIndex": 24,
           "width": 150,
           "height": 48
         }
