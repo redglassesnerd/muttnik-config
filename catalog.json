@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "lastUpdated": "2026-10-29",
   "shelves": [
     {
@@ -264,6 +264,15 @@
           "description": "A bouncy star on a spring antenna.",
           "price": 200,
           "iconIndex": 33,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "cosmetic_antenna_dot",
+          "name": "Dot Antenna",
+          "description": "A classic spring antenna with a bobble.",
+          "price": 150,
+          "iconIndex": 34,
           "width": 150,
           "height": 48
         },
