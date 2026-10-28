@@ -1,6 +1,6 @@
 {
-  "version": 5,
-  "lastUpdated": "2026-10-28",
+  "version": 6,
+  "lastUpdated": "2026-10-29",
   "shelves": [
     {
       "shelfIndex": 1,
@@ -169,56 +169,11 @@
       "baseY": 332,
       "items": [
         {
-          "id": "cosmetic_visor_ruby",
-          "name": "Ruby Visor",
-          "description": "Polished ruby glass helmet with anti-glare tint.",
-          "price": 200,
-          "iconIndex": 7,
-          "width": 150,
-          "height": 48
-        },
-        {
-          "id": "cosmetic_collar_neon",
-          "name": "Neon Collar",
-          "description": "Luminous safety collar glowing in deep space.",
-          "price": 150,
-          "iconIndex": 5,
-          "width": 150,
-          "height": 48
-        },
-        {
           "id": "cosmetic_suit_cyber",
           "name": "Cyber Suit",
           "description": "Muttnik in Cyber Blue.",
           "price": 250,
           "iconIndex": 25,
-          "width": 150,
-          "height": 48
-        },
-        {
-          "id": "cosmetic_trail_stardust",
-          "name": "Stardust Trail",
-          "description": "Leaves a glittering stardust particle trail.",
-          "price": 180,
-          "iconIndex": 4,
-          "width": 150,
-          "height": 48
-        },
-        {
-          "id": "cosmetic_flag_golden",
-          "name": "Gold Pennant",
-          "description": "Exclusive metallic gold flag for conquering biomes.",
-          "price": 300,
-          "iconIndex": 1,
-          "width": 150,
-          "height": 48
-        },
-        {
-          "id": "cosmetic_bow_red",
-          "name": "Red Bow",
-          "description": "A jaunty red bow for Muttnik's helmet.",
-          "price": 120,
-          "iconIndex": 24,
           "width": 150,
           "height": 48
         },
@@ -282,6 +237,51 @@
           "description": "A rainbow ribbon streams behind Muttnik.",
           "price": 300,
           "iconIndex": 32,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "cosmetic_trail_stardust",
+          "name": "Stardust Trail",
+          "description": "Leaves a glittering stardust particle trail.",
+          "price": 180,
+          "iconIndex": 4,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "cosmetic_bow_red",
+          "name": "Red Bow",
+          "description": "A jaunty red bow for Muttnik's helmet.",
+          "price": 120,
+          "iconIndex": 24,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "cosmetic_visor_ruby",
+          "name": "Ruby Visor",
+          "description": "Polished ruby glass helmet with anti-glare tint.",
+          "price": 200,
+          "iconIndex": 7,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "cosmetic_collar_neon",
+          "name": "Neon Collar",
+          "description": "Luminous safety collar glowing in deep space.",
+          "price": 150,
+          "iconIndex": 5,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "cosmetic_flag_golden",
+          "name": "Gold Pennant",
+          "description": "Exclusive metallic gold flag for conquering biomes.",
+          "price": 300,
+          "iconIndex": 1,
           "width": 150,
           "height": 48
         }
