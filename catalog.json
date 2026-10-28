@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "lastUpdated": "2026-10-28",
   "shelves": [
     {
@@ -189,9 +189,9 @@
         {
           "id": "cosmetic_suit_cyber",
           "name": "Cyber Suit",
-          "description": "High-tech chromatic space fabric for Muttnik.",
+          "description": "Muttnik in Cyber Blue.",
           "price": 250,
-          "iconIndex": 13,
+          "iconIndex": 25,
           "width": 150,
           "height": 48
         },
@@ -219,6 +219,69 @@
           "description": "A jaunty red bow for Muttnik's helmet.",
           "price": 120,
           "iconIndex": 24,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "cosmetic_suit_mint",
+          "name": "Martian Mint",
+          "description": "Muttnik dyed Martian Mint.",
+          "price": 250,
+          "iconIndex": 26,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "cosmetic_suit_lime",
+          "name": "Toxic Lime",
+          "description": "Muttnik, radioactively lime.",
+          "price": 250,
+          "iconIndex": 27,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "cosmetic_suit_grape",
+          "name": "Nebula Grape",
+          "description": "A suit the colour of a nebula.",
+          "price": 250,
+          "iconIndex": 28,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "cosmetic_suit_pink",
+          "name": "Pulsar Pink",
+          "description": "Muttnik in Pulsar Pink.",
+          "price": 250,
+          "iconIndex": 29,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "cosmetic_suit_lemon",
+          "name": "Solar Lemon",
+          "description": "A suit as bright as the sun.",
+          "price": 250,
+          "iconIndex": 30,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "cosmetic_suit_crimson",
+          "name": "Crimson Comet",
+          "description": "Muttnik in Crimson Comet red.",
+          "price": 250,
+          "iconIndex": 31,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "cosmetic_trail_rainbow",
+          "name": "Prism Wake",
+          "description": "A rainbow ribbon streams behind Muttnik.",
+          "price": 300,
+          "iconIndex": 32,
           "width": 150,
           "height": 48
         }
