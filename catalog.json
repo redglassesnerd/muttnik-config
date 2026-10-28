@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "lastUpdated": "2026-10-29",
   "shelves": [
     {
@@ -264,6 +264,15 @@
           "description": "A bouncy star on a spring antenna.",
           "price": 200,
           "iconIndex": 33,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "cosmetic_antenna_flower",
+          "name": "Daisy Antenna",
+          "description": "A cheerful daisy on a spring antenna.",
+          "price": 180,
+          "iconIndex": 35,
           "width": 150,
           "height": 48
         },
