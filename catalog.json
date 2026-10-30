@@ -1,5 +1,5 @@
 {
-  "version": 11,
+  "version": 12,
   "lastUpdated": "2026-10-29",
   "shelves": [
     {
@@ -264,6 +264,15 @@
           "description": "A toasty winter hat for a cosmic cold snap.",
           "price": 250,
           "iconIndex": 36,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "cosmetic_hat_officer",
+          "name": "Officer Cap",
+          "description": "Brass, braid and a very serious peak.",
+          "price": 300,
+          "iconIndex": 37,
           "width": 150,
           "height": 48
         },
