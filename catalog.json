@@ -1,5 +1,5 @@
 {
-  "version": 12,
+  "version": 13,
   "lastUpdated": "2026-10-29",
   "shelves": [
     {
@@ -273,6 +273,15 @@
           "description": "Brass, braid and a very serious peak.",
           "price": 300,
           "iconIndex": 37,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "cosmetic_hat_tophat",
+          "name": "Capitalist Pig Hat",
+          "description": "A very fancy top hat. Monocle not included.",
+          "price": 400,
+          "iconIndex": 38,
           "width": 150,
           "height": 48
         },
