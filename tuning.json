@@ -1,9 +1,9 @@
 {
 	"_readme": "Live tuning. Any value that is missing or <= 0 keeps the value the game shipped with (use feel.reduceMotion = 1 to switch shake and hit-stop off; shake strength and trauma values now live in the game build, not here). Fetched at the start of a run / summary.",
-	"version": 3,
+	"version": 4,
 	"upgrades": {
 		"thrusterSpeedMult": 1.15,
-		"o2TankAir": 125,
+		"o2TankAir": 12.5,
 		"hullAirFraction": 0.5,
 		"radarZoom": 0.9,
 		"magnetRadius": 170
