@@ -1,6 +1,6 @@
 {
-  "version": 13,
-  "lastUpdated": "2026-10-29",
+  "version": 14,
+  "lastUpdated": "2026-11-07",
   "shelves": [
     {
       "shelfIndex": 1,
@@ -157,6 +157,33 @@
           "description": "Beacon the next planet with your Muttnik flag.",
           "price": 50,
           "iconIndex": 1,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "powerup_speed",
+          "name": "Speed Boost",
+          "description": "Run twice as fast for 20 seconds.",
+          "price": 75,
+          "iconIndex": 39,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "powerup_bubblemagnet",
+          "name": "Bubble Magnet",
+          "description": "Pulls air bubbles towards you for 30 seconds.",
+          "price": 75,
+          "iconIndex": 40,
+          "width": 150,
+          "height": 48
+        },
+        {
+          "id": "powerup_biscuit",
+          "name": "Doggie Biscuit",
+          "description": "A tasty treat that instantly refills your air.",
+          "price": 60,
+          "iconIndex": 41,
           "width": 150,
           "height": 48
         }
@@ -457,6 +484,33 @@
       "description": "Leaves a glittering stardust particle trail.",
       "price": 180,
       "iconIndex": 4,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "id": "powerup_speed",
+      "name": "Speed Boost",
+      "description": "Run twice as fast for 20 seconds.",
+      "price": 75,
+      "iconIndex": 39,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "id": "powerup_bubblemagnet",
+      "name": "Bubble Magnet",
+      "description": "Pulls air bubbles towards you for 30 seconds.",
+      "price": 75,
+      "iconIndex": 40,
+      "width": 0,
+      "height": 0
+    },
+    {
+      "id": "powerup_biscuit",
+      "name": "Doggie Biscuit",
+      "description": "A tasty treat that instantly refills your air.",
+      "price": 60,
+      "iconIndex": 41,
       "width": 0,
       "height": 0
     }
